@@ -1,0 +1,12 @@
+import Day from "./day.ts";
+
+class Day%DAY% extends Day {
+  partOne(): string {
+    return "";
+  }
+  partTwo(): string {
+    return "";
+  }
+}
+
+export default Day%DAY%;

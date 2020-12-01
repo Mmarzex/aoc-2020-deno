@@ -1,0 +1,9 @@
+allow:
+  - read
+  - write
+  - net
+scripts:
+  all: deno run --unstable index.ts --run-all
+  day: deno run --unstable index.ts
+  test: deno test --unstable days/
+  generate: deno run --unstable generateDay.ts

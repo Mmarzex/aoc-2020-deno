@@ -1,6 +1,6 @@
 import { exists } from "https://deno.land/std@0.79.0/fs/mod.ts";
 
-const AOC_YEAR = 2019;
+const AOC_YEAR = 2020;
 
 class Day {
   protected input: string;

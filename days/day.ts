@@ -24,7 +24,7 @@ class Day {
     if (inputExists) {
       const decoder = new TextDecoder("utf-8");
       const data = await Deno.readFile(inputPath);
-      this.input = decoder.decode(data);
+      this.input = decoder.decode(data).trimRight();
     } else {
       const res = await fetch(
         `https://adventofcode.com/${AOC_YEAR}/day/${this.dayNumber}/input`,

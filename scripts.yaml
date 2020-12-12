@@ -2,6 +2,7 @@ allow:
   - read
   - write
   - net
+  - hrtime
 scripts:
   all: deno run --unstable index.ts --run-all
   day: deno run --unstable index.ts

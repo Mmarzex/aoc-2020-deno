@@ -52,9 +52,13 @@ class Day {
 
   run() {
     console.log("#### PART ONE ####");
+    console.time("Part One");
     console.log(this.partOne());
+    console.timeEnd("Part One");
     console.log("#### PART TWO ####");
+    console.time("Part Two");
     console.log(this.partTwo());
+    console.timeEnd("Part Two");
   }
 }
 
